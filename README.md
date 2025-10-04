@@ -16,7 +16,3 @@ This repository contains the required notebooks for the AIRL internship assignme
 - `img_size=32`, `patch_size=4`, `emb_dim=192`, `depth=6`, `num_heads=3`, `batch_size=128`, `epochs=20`
 - Reported test accuracy (example): **depends on training**. Try increasing epochs, model size or using pretrained ViT from `timm` for higher performance.
 
-## Notes & Tips
-- Keep the repo limited to exactly the 3 files before submission (q1.ipynb, q2.ipynb, README.md).
-- Include any concise analysis (patch choices, augmentations, optimizer/scheduler) inside README or a short section in the notebook for bonus marks.
-- If you want, I can help further by improving the ViT (add mixup, weight decay tuning, pretrained fine-tuning), or adapt Q2 to a specific public SAM checkpoint.
